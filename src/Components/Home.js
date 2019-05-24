@@ -4,7 +4,6 @@ class Home extends Component {
   render() {
     return (
       <div>
-        //{" "}
         <div
           style={{
             height: "600px",

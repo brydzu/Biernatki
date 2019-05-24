@@ -12,11 +12,13 @@ import Przedsiebiorcy from "./Przedsiebiorcy";
 import Soltys from "./Soltys";
 import Strategia from "./Strategia";
 import Home from "./Home";
+import Aktualnosci from "./Aktualnosci";
 
 const Main = () => (
   <Switch>
     <Route exact path="/Home" component={Home} />
     <Route exact path="/" component={LandingPage} />
+    <Route path="/Aktualnosci" component={Aktualnosci} />
     <Route path="/About" component={About} />
     <Route path="/Fundusz" component={Fundusz} />
     <Route path="/Soltys" component={Soltys} />
