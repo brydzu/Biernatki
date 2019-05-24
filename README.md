@@ -1,2 +1,0 @@
-# Biernatki
-Created with CodeSandbox
