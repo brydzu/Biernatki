@@ -13,12 +13,13 @@ class App extends Component {
       <BrowserRouter>
         <div className="demo-big-content">
           <Layout>
-            <Header title="Title" scroll>
+            <Header title="Wieś Biernatki" scroll>
               <Navigation>
+                <Link to="/Home">Strona główna</Link>
                 <Link to="/About">About</Link>
                 <Link to="/Fundusz">Fundusz</Link>
                 <Link to="/Soltys">Soltys</Link>
-                <Link to="/">Link</Link>
+                <Link to="/Mieszkancy">Mieszkancy</Link>
               </Navigation>
             </Header>
             <Drawer title="Title">
