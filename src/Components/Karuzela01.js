@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
+import holder from "holderjs";
 
 class Karuzela01 extends Component {
   render() {
