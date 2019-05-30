@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+import Karuzela01 from "./Components/Karuzela01";
 
 import "./styles.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
@@ -34,6 +35,7 @@ class App extends Component {
             </Drawer>
             <Content>
               <div className="page-content" />
+              <Karuzela01 />
               <Main />
             </Content>
           </Layout>
