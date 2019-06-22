@@ -5,12 +5,17 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "bootstrap": "4.3.1",
     "emmet": "1.6.3",
+    "mdbreact": "4.16.0",
     "react": "16.8.6",
+    "react-bootstrap": "1.0.0-beta.9",
+    "react-css-modules": "4.7.11",
     "react-dom": "16.8.6",
     "react-mdl": "1.11.0",
     "react-router-dom": "5.0.0",
     "react-scripts": "2.1.8",
+    "reactstrap": "8.0.0",
     "register-service-worker": "1.6.2"
   },
   "devDependencies": {
