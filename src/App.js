@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+import Naglowek from "./Components/Naglowek";
 
 import "./styles.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
@@ -21,12 +22,15 @@ import karuzela2 from "./Assets/karuzela2.jpg";
 import karuzela3 from "./Assets/karuzela3.jpg";
 import karuzela4 from "./Assets/karuzela4.jpg";
 
+import "./SideDrawer.css";
+
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <div className="demo-big-content">
           <Layout>
+            <Naglowek />
             <Header title="Wieś Biernatki - Zapraszamy!" scroll>
               <Navigation>
                 <Link to="/Home">Strona główna</Link>
@@ -37,14 +41,26 @@ class App extends Component {
                 <Link to="/Mieszkancy">Mieszkancy</Link>
               </Navigation>
             </Header>
-            <Drawer title="Title">
+            <Drawer title="Title" className="side-drawer">
               <Navigation>
-                <Link to="/Home">Strona główna</Link>
-                <Link to="/Aktualnosci">Aktualnosci</Link>
-                <Link to="/About">Informacje</Link>
-                <Link to="/Fundusz">Fundusz</Link>
-                <Link to="/Soltys">Soltys</Link>
-                <Link to="/Mieszkancy">Mieszkancy</Link>
+                <Link className="side-drawer.open" to="/Home">
+                  Strona główna
+                </Link>
+                <Link className="side-drawer.open" to="/Aktualnosci">
+                  Aktualnosci
+                </Link>
+                <Link className="side-drawer.open" to="/About">
+                  Informacje
+                </Link>
+                <Link className="side-drawer.open" to="/Fundusz">
+                  Fundusz
+                </Link>
+                <Link className="side-drawer.open" to="/Soltys">
+                  Soltys
+                </Link>
+                <Link className="side-drawer.open" to="/Mieszkancy">
+                  Mieszkancy
+                </Link>
               </Navigation>
             </Drawer>
             <Content>
