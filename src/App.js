@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Naglowek from "./Components/Naglowek";
+import Karuzela01 from "./Components/Karuzela01";
 
 import "./styles.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
@@ -133,6 +134,7 @@ class App extends Component {
                   </MDBCarouselInner>
                 </MDBCarousel>
               </MDBContainer>
+              <Karuzela01 />
               <Main />
             </Content>
           </Layout>
