@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import soltys_foto from "./soltys-biernatki-2019.jpg";
+import soltys_foto from "../Assets/soltys-biernatki-2019.jpg";
 
 class Soltys extends Component {
   render() {
