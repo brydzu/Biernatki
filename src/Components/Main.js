@@ -14,6 +14,13 @@ import Strategia from "./Strategia";
 import Home from "./Home";
 import Aktualnosci from "./Aktualnosci";
 
+//import Aktualnosci_a from "./Aktualnosci/Aktualnosci_a";
+//import BlogPost from "./BlogPost";
+//import Customers from "./Customers";
+//import Customer from "./Customer";
+//import Faq from "./Faq";
+//import Homepage from "./Homepage";
+
 const Main = () => (
   <Switch>
     <Route exact path="/Home" component={Home} />
