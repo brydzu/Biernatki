@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import soltys_foto from "../Assets/soltys-biernatki-2019.jpg";
-
+import Soltys from "./Soltys";
 // import Container from "react-bootstrap/Container";
 // import Row from "react-bootstrap/Row";
 // import Col from "react-bootstrap/Col";
@@ -13,6 +13,13 @@ class Home extends Component {
     return (
       <div
         style={{
+          //  borderRadius: "20px",
+          //  borderStyle: "solid",
+          //  color: "black",
+          marginLeft: "80px",
+          marginRight: "80px",
+          marginTop: "2px",
+          
           // backgroundAttachment: { soltys_foto },
           opacity: "1",
           textAlign: "center"
@@ -33,11 +40,44 @@ class Home extends Component {
                 Biernatki. W tym miejscu znajdują się informacje dotyczące tego
                 pięknego, tonącego w zieleni miejsca oraz ludzi, którzy tu
                 mieszkają, pracują, działają i czują się związani z tą ziemią…
-              </h3>
+                {/*}   </Col>
+          </Row>
+          <Row>
+            <Col>
               <img
+                style={{
+                  alignSelf: "center",
+                  opacity: "1",
+                  textAlign: "center"
+                }}
                 src={soltys_foto}
                 alt="Nowy soltys wsi Biernatki wraz z radą sołecką"
               />
+            </Col>
+            {/*} </Row>
+          <Row> 
+            <Col>
+              <div>*/}
+                <p>
+                  <img
+                    style={{
+                      //alignSelf: "center",
+                      opacity: "1",
+                      //alignContent: center
+
+                      //textAlign: "center"
+                      //justifyContent: 'center',
+                      alignItems: "center",
+                      width: 600,
+                      height: 350,
+                      marginRight: 30,
+                      marginTop: 20
+                    }}
+                    src={soltys_foto}
+                    //alt="Nowy soltys wsi Biernatki wraz z radą sołecką"
+                  />
+                </p>
+              </h3>
             </Col>
           </Row>
           <Row>

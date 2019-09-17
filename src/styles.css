@@ -11,5 +11,19 @@
   opacity: "1",
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
-  backgroundImage: 'url("./assets/IG background.jpg")'
+  backgroundImage: 'url("./assets/IG background.jpg")',
+  margin-left: "20px"
+}
+
+.post {
+  borderRadius: "20px",
+  borderStyle: "solid",
+  color: "black",
+  marginLeft: "80px",
+  marginRight: "80px",
+  marginTop: "2px"
+}
+
+.aktualnosci-post {
+  text-align: center;
 }
