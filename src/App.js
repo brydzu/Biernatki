@@ -31,7 +31,7 @@ class App extends Component {
         <div className="demo-big-content">
           <Layout>
             <Naglowek />
-            <Header title="Wieś Biernatki - Zapraszamy!" scroll>
+            <Header title="Wieś Biernatki - Zapraszamy!" scroll  style={{ backgroundColor: "darkgray" }}>
               <Navigation>
                 <Link to="/Home">Strona główna</Link>
                 <Link to="/Aktualnosci">Aktualnosci</Link>

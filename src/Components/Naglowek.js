@@ -7,9 +7,13 @@ class Naglowek extends Component {
     return (
       <div className="Naglowek">
         <div>
-          <img className="herbGminy" src={logo_Gminy} style={{ alignItems: "rigth" }}/>
+          <img
+            className="herbGminy"
+            src={logo_Gminy}
+            style={{ alignItems: "rigth" }}
+          />
         </div>
-        <div className="textNaglowek">
+        <div className="textNaglowek" style={{ lineHeight: "2px" }}>
           <h4>Biernatki (gm. Wądroże Wielkie)</h4>
         </div>
       </div>
