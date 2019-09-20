@@ -18,7 +18,7 @@ class Aktualnosci extends Component {
                 color: "black",
                 marginLeft: "80px",
                 marginRight: "80px",
-                marginTop: "2px"
+                marginTop: "5px"
               }}
             >
               <h2>{PostDetail.title}</h2>
