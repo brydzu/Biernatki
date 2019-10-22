@@ -24,7 +24,7 @@ import Aktualnosci from "./Aktualnosci";
 const Main = () => (
   <Switch>
     <Route exact path="/Home" component={Home} />
-    <Route exact path="/" component={LandingPage} />
+    <Route exact path="/" component={Home} />
     <Route path="/Aktualnosci" component={Aktualnosci} />
     <Route path="/About" component={About} />
     <Route path="/Fundusz" component={Fundusz} />
